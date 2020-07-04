@@ -1,0 +1,467 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.hero-section {
+  display: block;
+  height: 800px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ef233c;
+  background-image: url('../images/Canva---Woman-Using-Computer-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hero-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 15, 13, 0.47)), to(rgba(10, 15, 13, 0.47)));
+  background-image: linear-gradient(180deg, rgba(10, 15, 13, 0.47), rgba(10, 15, 13, 0.47));
+}
+
+.hero-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 42px;
+}
+
+.hero-heading-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0%;
+  padding: 2%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #0a0f0d;
+}
+
+.hero-paragraph {
+  width: 400px;
+  margin-top: 25px;
+  color: #fff;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.content-section {
+  height: 1080px;
+}
+
+.content-section._1 {
+  background-image: url('../images/Canva---Wooden-Table-With-Laptop-.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.section-div {
+  width: 100%;
+  height: 100%;
+  padding-top: 2%;
+  background-image: linear-gradient(135deg, transparent 65%, #ef233c 0);
+}
+
+.section-div._1 {
+  padding-top: 2%;
+  border-radius: 0px;
+  background-color: #ef233c;
+}
+
+.section-div._2 {
+  margin-top: 0%;
+  background-image: linear-gradient(135deg, #ef233c 35%, hsla(0, 0%, 100%, 0) 0);
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #0a0f0d;
+  text-align: center;
+}
+
+.h1._1 {
+  margin-left: 0%;
+  border-bottom: 4px solid #000;
+  border-radius: 0px;
+  background-color: #ef233c;
+  color: #fff;
+  text-align: left;
+}
+
+.grid {
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.grid-div {
+  margin-top: 5%;
+}
+
+.grid-div._1 {
+  margin-top: 0%;
+  padding: 2%;
+  border-radius: 0px;
+  background-color: #ef233c;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Canva---Female-Engineer-Taking-Notes.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Canva---Female-Engineer-Taking-Notes.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  color: #fff;
+}
+
+.grid-div._2 {
+  margin-top: 0%;
+  padding: 2%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Canva---Person-Holding-Blue-Ballpoint-Pen-Writing-in-Notebook-1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Canva---Person-Holding-Blue-Ballpoint-Pen-Writing-in-Notebook-1.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.grid-div._3 {
+  margin-top: 0%;
+  padding: 2%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://uploads-ssl.webflow.com/5edee84fb30c07583b7cda84/5ee67a21921007149ef60215_Canva%20-%20Two%20Imac's%20With%20Keyboard%20and%20Phones%20on%20Desk.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://uploads-ssl.webflow.com/5edee84fb30c07583b7cda84/5ee67a21921007149ef60215_Canva%20-%20Two%20Imac's%20With%20Keyboard%20and%20Phones%20on%20Desk.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.grid-div._4 {
+  margin-top: 0%;
+  padding: 2%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Canva---Empty-Startup-Office.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Canva---Empty-Startup-Office.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.h2 {
+  border-top: 2px solid #000;
+  color: #0a0f0d;
+  font-size: 30px;
+  text-align: center;
+}
+
+.h2._2 {
+  border-top-style: none;
+  color: #fff;
+  text-align: right;
+}
+
+.h2._3 {
+  border: 1px none #000;
+  color: #fff;
+  text-align: left;
+}
+
+.h2._1 {
+  text-align: left;
+}
+
+.paragraph {
+  color: #5d5d5d;
+}
+
+.paragraph._1 {
+  color: #fff;
+  text-align: justify;
+}
+
+.paragraph._2 {
+  margin-top: 3%;
+  margin-right: 33%;
+  padding-bottom: 3%;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.paragraph._3 {
+  margin-top: 3%;
+  margin-right: 64%;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.paragraph._4 {
+  width: 50%;
+  margin-right: 1%;
+}
+
+.paragraph._5 {
+  text-align: justify;
+}
+
+.content-div {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.content-div._1 {
+  padding: 0%;
+  border-radius: 0px;
+  background-color: #fff;
+}
+
+.content-div._2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 800px;
+  margin-top: 0%;
+  margin-right: 42%;
+  margin-left: 2%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.format-div._1 {
+  background-color: #ef233c;
+}
+
+.grid-2 {
+  -ms-grid-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+
+.paragraph-2 {
+  padding-left: 79%;
+}
+
+.image {
+  width: 50%;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: linear-gradient(45deg, transparent 65%, #ef233c 0);
+  text-align: center;
+}
+
+.footer-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer-logo-link {
+  max-height: 60px;
+  min-width: 60px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.footer-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 0% 50%;
+  object-position: 0% 50%;
+}
+
+.footer-heading {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-link {
+  display: block;
+  margin-bottom: 10px;
+  color: #444;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.image-2 {
+  width: 600px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 40px 20px;
+  }
+  .footer-image {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .footer-flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footer-logo-link {
+    height: 60px;
+  }
+  .footer-heading {
+    margin-top: 20px;
+  }
+}
+
+#w-node-79d8362a8a1f-5b7cda85 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-22b083078517-5b7cda85 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-983fac062d62-5b7cda85 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
